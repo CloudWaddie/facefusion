@@ -100,7 +100,7 @@ def pre_check() -> bool:
 def common_pre_check() -> bool:
 	content_analyser_content = inspect.getsource(content_analyser).encode()
 
-	return true
+	return True
 
 
 def processors_pre_check() -> bool:
